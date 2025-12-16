@@ -1,0 +1,218 @@
+{
+  "title": "Style Classique",
+  "subtitle": "Costumes, coupe et élégance",
+  "logo": "assets/images/logo.svg",
+  "cta": {
+    "text": "Bien s'habiller",
+    "label": "S'abonner"
+  },
+  "feature": {
+    "headline": "2025 : tailoring et matières",
+    "summary": "Coupe et drapé.",
+    "body": "Le costume moderne valorise la liberté de mouvement et les tissus naturels.",
+    "date": "1er Décembre 2025",
+    "topic": "Tailoring",
+    "author": "Gil",
+    "imageHero": "assets/texture/texture1.jpg",
+    "rating": 4.7,
+    "views": 10100,
+    "read": "7 min",
+    "tags": [
+      "costume",
+      "coupe",
+      "matières"
+    ],
+    "titre": "2025 : tailoring et matières",
+    "description": "Coupe et drapé.",
+    "corps": "Le costume moderne valorise la liberté de mouvement et les tissus naturels.",
+    "theme": "Tailoring",
+    "auteur": "Gil"
+  },
+  "stories": [
+    {
+      "headline": "Accessoires",
+      "summary": "Cravates et souliers.",
+      "body": "Équilibre et proportions.",
+      "date": "28 Novembre 2025",
+      "topic": "Détails",
+      "author": "Rédaction",
+      "image": "assets/texture/texture2.png",
+      "rating": 4.6,
+      "views": 8600,
+      "read": "6 min",
+      "titre": "Accessoires",
+      "description": "Cravates et souliers.",
+      "corps": "Équilibre et proportions.",
+      "theme": "Détails",
+      "auteur": "Rédaction"
+    },
+    {
+      "headline": "Coupe et silhouette",
+      "summary": "Épaules et taille.",
+      "body": "Volumes et ajustements.",
+      "date": "25 Novembre 2025",
+      "topic": "Coupe",
+      "author": "Gil",
+      "image": "assets/texture/texture3.jpg",
+      "rating": 4.5,
+      "views": 8200,
+      "read": "6 min",
+      "titre": "Coupe et silhouette",
+      "description": "Épaules et taille.",
+      "corps": "Volumes et ajustements.",
+      "theme": "Coupe",
+      "auteur": "Gil"
+    },
+    {
+      "headline": "Matières et saisons",
+      "summary": "Laine, coton, lin.",
+      "body": "Confort et respirabilité.",
+      "date": "21 Novembre 2025",
+      "topic": "Matières",
+      "author": "Rédaction",
+      "image": "assets/texture/texture4.jpg",
+      "rating": 4.3,
+      "views": 7400,
+      "read": "5 min",
+      "titre": "Matières et saisons",
+      "description": "Laine, coton, lin.",
+      "corps": "Confort et respirabilité.",
+      "theme": "Matières",
+      "auteur": "Rédaction"
+    },
+    {
+      "headline": "Entretien et durabilité",
+      "summary": "Réparer et préserver.",
+      "body": "Pressing vs maison.",
+      "date": "17 Novembre 2025",
+      "topic": "Entretien",
+      "author": "Gil",
+      "image": "assets/texture/texture5.jpg",
+      "rating": 4.4,
+      "views": 7800,
+      "read": "5 min",
+      "titre": "Entretien et durabilité",
+      "description": "Réparer et préserver.",
+      "corps": "Pressing vs maison.",
+      "theme": "Entretien",
+      "auteur": "Gil"
+    },
+    {
+      "headline": "Codes et modernité",
+      "summary": "Formel vs casual.",
+      "body": "Mélanges et contextes.",
+      "date": "12 Novembre 2025",
+      "topic": "Style",
+      "author": "Rédaction",
+      "image": "assets/texture/texture6.jpg",
+      "rating": 4.2,
+      "views": 7000,
+      "read": "4 min",
+      "titre": "Codes et modernité",
+      "description": "Formel vs casual.",
+      "corps": "Mélanges et contextes.",
+      "theme": "Style",
+      "auteur": "Rédaction"
+    }
+  ],
+  "topics": [
+    {
+      "title": "Coupe",
+      "desc": "Épaules et taille.",
+      "icon": "🤵",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#3B82F6",
+      "nom": "Coupe",
+      "description": "Épaules et taille."
+    },
+    {
+      "title": "Matières",
+      "desc": "Laine, coton, lin.",
+      "icon": "🧵",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#10B981",
+      "nom": "Matières",
+      "description": "Laine, coton, lin."
+    },
+    {
+      "title": "Détails",
+      "desc": "Cravates et souliers.",
+      "icon": "👞",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#F59E0B",
+      "nom": "Détails",
+      "description": "Cravates et souliers."
+    },
+    {
+      "title": "Entretien",
+      "desc": "Réparer et préserver.",
+      "icon": "🧼",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#6B7280",
+      "nom": "Entretien",
+      "description": "Réparer et préserver."
+    },
+    {
+      "title": "Tailoring",
+      "desc": "Coupes et drapé.",
+      "icon": "🪡",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#EF4444",
+      "nom": "Tailoring",
+      "description": "Coupes et drapé."
+    },
+    {
+      "title": "Style",
+      "desc": "Formel vs casual.",
+      "icon": "🧥",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#3B82F6",
+      "nom": "Style",
+      "description": "Formel vs casual."
+    }
+  ],
+  "contributors": [
+    {
+      "firstName": "Gil",
+      "expertise": "Conseiller style",
+      "bio": "Coupe et matières.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "gil@styleclassique.com",
+      "articles": 14,
+      "followers": 3800,
+      "prenom": "Gil",
+      "nom": "",
+      "typeExperience": "Conseiller style",
+      "presentation": "Coupe et matières.",
+      "image": "assets/texture/texture7.jpg"
+    },
+    {
+      "firstName": "Claire",
+      "expertise": "Tailleur",
+      "bio": "Coupe traditionnelle.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "claire@atelier.fr",
+      "articles": 19,
+      "followers": 4200,
+      "prenom": "Claire",
+      "nom": "Dubois",
+      "typeExperience": "Tailleur",
+      "presentation": "Coupe traditionnelle.",
+      "image": "assets/texture/texture7.jpg"
+    },
+    {
+      "firstName": "Marc",
+      "expertise": "Styliste",
+      "bio": "Codes modernes.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "marc@studio.fr",
+      "articles": 17,
+      "followers": 4000,
+      "prenom": "Marc",
+      "nom": "Legrand",
+      "typeExperience": "Styliste",
+      "presentation": "Codes modernes.",
+      "image": "assets/texture/texture7.jpg"
+    }
+  ]
+}
