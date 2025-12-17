@@ -143,6 +143,10 @@ p {
    transition: all var(--transition);
    text-transform: uppercase;
    letter-spacing: 0.5px;
+   
+
+
+
 }
 
 .nav-theme-btn:hover {
@@ -259,6 +263,9 @@ p {
    transition: transform var(--transition), box-shadow var(--transition);
    display: flex;
    flex-direction: column;
+   gap: 10px;
+   border-radius:  100px;
+   border: 3px solid black;
 }
 
 .article-card:hover {
