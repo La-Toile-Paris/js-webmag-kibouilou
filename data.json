@@ -3,7 +3,7 @@
   "subtitle": "Costumes, coupe et élégance",
   "logo": "assets/images/logo.svg",
   "cta": {
-    "text": "Bien s'habiller",
+    "text": "bien s'habiller",
     "label": "S'abonner"
   },
   "feature": {
@@ -12,8 +12,8 @@
     "body": "Le costume moderne valorise la liberté de mouvement et les tissus naturels.",
     "date": "1er Décembre 2025",
     "topic": "Tailoring",
-    "author": "Gil",
-    "imageHero": "assets/texture/texture1.jpg",
+    "author": "Gil-christ",
+    "imageHero": "assets/images/Costumeboutique.webp",
     "rating": 4.7,
     "views": 10100,
     "read": "7 min",
@@ -31,12 +31,12 @@
   "stories": [
     {
       "headline": "Accessoires",
-      "summary": "Cravates et souliers.",
+      "summary": "Cravates,Mochettes, chemises, souliers, c'est ça qui fait la class.",
       "body": "Équilibre et proportions.",
       "date": "28 Novembre 2025",
       "topic": "Détails",
       "author": "Rédaction",
-      "image": "assets/texture/texture2.png",
+      "image": "assets/images/les accessoires.jpn.jpg",
       "rating": 4.6,
       "views": 8600,
       "read": "6 min",
@@ -53,7 +53,7 @@
       "date": "25 Novembre 2025",
       "topic": "Coupe",
       "author": "Gil",
-      "image": "assets/texture/texture3.jpg",
+      "image": "assets/images/bien habilier.jpg",
       "rating": 4.5,
       "views": 8200,
       "read": "6 min",
@@ -70,7 +70,7 @@
       "date": "21 Novembre 2025",
       "topic": "Matières",
       "author": "Rédaction",
-      "image": "assets/texture/texture4.jpg",
+      "image": "assets/images/saison lin,coton.jpg",
       "rating": 4.3,
       "views": 7400,
       "read": "5 min",
@@ -87,7 +87,7 @@
       "date": "17 Novembre 2025",
       "topic": "Entretien",
       "author": "Gil",
-      "image": "assets/texture/texture5.jpg",
+      "image": "assets/images/Entretien.jpg",
       "rating": 4.4,
       "views": 7800,
       "read": "5 min",
@@ -104,7 +104,7 @@
       "date": "12 Novembre 2025",
       "topic": "Style",
       "author": "Rédaction",
-      "image": "assets/texture/texture6.jpg",
+      "image": "assets/images/Très jolie.jpg",
       "rating": 4.2,
       "views": 7000,
       "read": "4 min",
@@ -176,7 +176,7 @@
       "firstName": "Gil",
       "expertise": "Conseiller style",
       "bio": "Coupe et matières.",
-      "avatar": "assets/texture/texture7.jpg",
+      "avatar": "assets/images/Gil.jpg",
       "email": "gil@styleclassique.com",
       "articles": 14,
       "followers": 3800,
@@ -184,7 +184,7 @@
       "nom": "kibouilou",
       "typeExperience": "Conseiller style",
       "presentation": "Coupe et matières.",
-      "image": "assets/texture/texture7.jpg"
+      "image": "assets/images/Gil.jpg"
     },
     {
       "firstName": "Claire",
@@ -198,13 +198,13 @@
       "nom": "Dubois",
       "typeExperience": "Tailleur",
       "presentation": "Coupe traditionnelle.",
-      "image": "assets/texture/texture7.jpg"
+      "image": "assets/images/une-femme.jpg"
     },
     {
       "firstName": "Marc",
       "expertise": "Styliste",
       "bio": "Codes modernes.",
-      "avatar": "assets/texture/texture7.jpg",
+      "avatar": "assets/images/une-femme.jpg",
       "email": "marc@studio.fr",
       "articles": 17,
       "followers": 4000,
@@ -212,7 +212,7 @@
       "nom": "Legrand",
       "typeExperience": "Styliste",
       "presentation": "Codes modernes.",
-      "image": "assets/texture/texture7.jpg"
+      "image": "assets/images/photo.jpg"
     }
   ]
 }

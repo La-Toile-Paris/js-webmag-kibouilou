@@ -27,15 +27,14 @@ function getData() {
       
       let navBar=document.getElementById("themes-nav");
       console.log(navBar);
+      navBar.innerHTML+=`<button class=" nav-theme-btn active" journal-theme="tous">Tous</button>`;
       journal.topics.forEach(function(topic){
 
-        let bouton= `<bouton class='nav-theme-btn'>
-        <p>${topic.icon}<p>
-        <h3>${topic.title}</h3>
-
+        let bouton= `<bouton class="nav-theme-btn"> 
+        ${topic.icon} ${topic.title}</p>
         </bouton>
         `;
-        navBar.insertAdjacentHTML("beforeend", bouton);
+        navBar.innerHTML+= bouton ;
       });
       
   
@@ -49,12 +48,15 @@ console.log(articleprincipal);
 let cartePrincipal= `
 
 <img src="${journal.feature.imageHero}" id=hero-image>
+<div class="card-content">
+<p class="theme-badge">Collaboration</p>
 <div class="article-principal">
   <h3 id="hero-titre">${journal.feature.titre}"</h3>
-  <h3 id=hero-info>${journal.feature.summary}</h3>
+  <h3>${journal.feature.summary}</h3>
   <p id=hero-description><strong>${journal.feature.body}<strong></p>
-  <p id=hero-auteur>${journal.feature.author}</p>
-  <p>${journal.feature.date}</p>
+  <p id=hero-auteur> par ${journal.feature.author} * ${journal.feature.date}</p>
+  <button class=read-article-btn>Lire l'article</button>
+  
 </div>
 `;
 articleprincipal.insertAdjacentHTML('beforeend', cartePrincipal);
@@ -64,24 +66,20 @@ articleprincipal.insertAdjacentHTML('beforeend', cartePrincipal);
       let articleGrid=document.getElementById("articles-grid")
       console.log(articleGrid);
      
-      
-    journal.stories.forEach(function(story) {
-      let carteStories= 
-      `<article class='card'>
-      <img src="${story.image}" alt=${story.headline}">
+    journal.stories.forEach(story => {
+      let carteStories= `<div class="article-card">
+      <img src="${story.image}" alt="${story.headline}">
       <button class="theme-badge"> ${story.theme}</button>
-
+      <div class="article-content">
       <h3>${story.headline}</h3>
-      <h3>${story.body}</h3>
       <p>${story.summary}</p>
-      <p>${story.author}</p>
-      <p>${story.date}</p>
+      <div class="article-author"> par ${story.author} ${story.date}</div>
       <button class="read-btn">Lire l'article</button>
-
-      </article>
-      `;
-  articleGrid.insertAdjacentHTML("beforeend", carteStories);
-      });
+      
+      
+      </div>`;
+     articleGrid.insertAdjacentHTML("beforeend" , carteStories);
+    });
    
       // TODO 5: REMPLIR LES THEMES
       
@@ -103,28 +101,46 @@ let auteur=document.getElementById("authors-list");
 console.log(auteur);
 
 journal.contributors.forEach(function (author) {
-  carteAuteur= `<div class="authors-card">
+  carteAuteur= `<div class='author-card'>
   <div class='container'>
-  <img src="${author.image}">
-  <h3>${author.firstName}</h3>
-  <h3> ${author.presentation}</h3>
+
+  <img class='author-image'src="${author.image}">
+  <h3 class="author-card h3">${author.firstName}</h3>
+  <p>${author.presentation}</p>
   <p>E-mail: ${author.email}</p>
   <p>${author.typeExperience}</p>
   <p> Followers : ${author.followers}</p>
   <p>${author.articles} Artcle</p>
+  <p class="author-role"></p>
+  <p class="author-bio></p>
+  <p class="author-socials></p>
+  <p class= author-socials a></p>
+  <p class="author-socials a:hover></p>
+  </div>
   
   </div>`;
   auteur.insertAdjacentHTML("beforeend" , carteAuteur);
 });
 
       // TODO 7: REMPLIR LE BOUTON CALL TO ACTION
-let cta=document.getElementById("call-to-action");
-console.log(cta);
-cta.textContent="S'habiller";
-cta.addEventListener("click" , function(){
-   alert("vous êtes abonné!");
+      let text="bien s'hallier";
+      let label="s'abonner";
+let callButton=document.getElementById("call-to-action");
+console.log(callButton);
 
-     });
+carteCta= `
+<div class='container'>
+<div id="call-to-action">
+<p>Rejoignez notre communauté pour explorer l'inspiration de l'art et la mode. </p>
+<p>Il faut  ${journal.cta.text} pour être class.</p>
+<button id="cta-button" class="cta-button">${journal.cta.label} </button>
+
+
+</div>`;
+     
+callButton.insertAdjacentHTML("beforeend" , carteCta);
+  
+     
 
   
 
